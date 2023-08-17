@@ -1,0 +1,20 @@
+body{
+    background: rgb(63,247,251);
+    background: linear-gradient(90deg, rgba(63,247,251,1) 0%, rgba(252,70,70,1) 100%);
+    text-align: center;
+    /* margin-top: 20%; */
+}
+.bloco {
+    width: auto;
+    height: 300px;
+    background: rgb(163,24,24);
+    background: linear-gradient(143deg, rgba(163,24,24,1) 20%, rgba(57,126,128,1) 20%);
+    margin: 190px;
+    border-radius: 25px;
+
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+}

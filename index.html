@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Par ou Impar</title>
+</head>
+<!DOCTYPE html>
+<html lang="en">
+<body>
+    <div class="bloco">
+    <h1>Par ou Ímpar?</h1>
+    <h3><span id="par_impar"></span></h3>
+    </div>
+    <script>
+        var numero = parseInt(prompt('Escreva um número para descobrir se é par ou ímpar:'));
+
+        if (numero % 2 === 0) {
+            document.getElementById('par_impar').textContent = "O número " + numero + " é par!";
+        } else {
+            document.getElementById('par_impar').textContent = "O número " + numero + " é ímpar!";
+        }
+    </script>
+</body>
+
+</html>
